@@ -1,0 +1,92 @@
+/**
+ * Black theme for reveal.js. This is the opposite of the 'white' theme.
+ *
+ * Copyright (C) 2015 Hakim El Hattab, http://hakim.se
+ */
+
+ // This file has been copied over from
+ // ../../bower_components/reveal.js/css/theme/source/black.scss
+
+ // See ../../bower_components/reveal.js/css/theme/README.md
+ // for further explanations on how to create a custom reveal.js theme.
+
+// Default mixins and settings -----------------
+@import "../../bower_components/reveal.js/css/theme/template/mixins";
+@import "../../bower_components/reveal.js/css/theme/template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(../bower_components/reveal.js/lib/font/source-sans-pro/source-sans-pro.css);
+
+
+// Override theme settings (see ../../bower_components/reveal.js/css/theme/template/settings.scss)
+$backgroundColor: #222;
+
+$mainColor: #fff;
+$headingColor: #fff;
+
+$mainFontSize: 30px;
+$mainFont: 'Source Sans Pro', Helvetica, sans-serif;
+$headingFont: 'Source Sans Pro', Helvetica, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: uppercase;
+$headingFontWeight: 600;
+$linkColor: #42affa;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+$heading1Size: 2.5em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+section.has-light-background {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: #222;
+	}
+}
+
+// Theme template ------------------------------
+@import "../../bower_components/reveal.js/css/theme/template/theme";
+// ---------------------------------------------
+
+//// Overwrite some zenburn styles ------------
+//pre {
+//  .keyword, .comment {
+//    color: #3ACF5E;
+//	}
+//}
+//// ------------------------------------------
+
+// Styles specific to notes.md's content
+h1#developmental-breakfast {
+	margin-top: 20%;
+	background: rgba(190, 228, 253, 0.5);
+}
+
+h2#numero-duo {
+	background: rgba(190, 228, 253, 0.5);
+}
+
+h2#the-emperor-s-new-clothes {
+	margin-top: 20%;
+	background: rgba(190, 228, 253, 0.5);
+}
+
+h3#-linting-http-eslint-org- {
+	a {
+		color: #666
+	}
+}
+
+section[data-background="./resources/webpack-background.png"] {
+	a {
+		background: rgba(190, 228, 253, 0.5);
+	}
+}
+
+section[data-background="./resources/mr-t-demo.jpg"] {
+	background: rgba(190, 228, 253, 0.5);
+}
