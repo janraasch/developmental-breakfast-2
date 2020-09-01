@@ -1,6 +1,6 @@
 # developmental-breakfast-2
 
-> 2nd issue of the *Developmental Breakfast* series at [tolingo GmbH](tolingo.com).
+> 2nd issue of the *Developmental Breakfast* series at [tolingo GmbH](https://www.tolingo.com).
 
 ## Plain ol' markdown
 
@@ -8,7 +8,7 @@ The plain ol' markdown notes are in [notes.md](./notes.md).
 
 ## GitHub Pages
 
-Go to the [GitHub Page](http://janraasch.github.io/developmental-breakfast-2/) of this repository to view the slides online.
+Go to the [GitHub Page](https://janraasch.github.io/developmental-breakfast-2/) of this repository to view the slides online.
 
 ## Development
 - Install `node`.
